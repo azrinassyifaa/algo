@@ -13,6 +13,7 @@ struct Process {
 };
 
 int main() {
+    int kwkwkwkw;
     int n;
     cout << "Masukkan jumlah proses: ";
     cin >> n;
@@ -56,9 +57,9 @@ int main() {
         if (idx == -1) {
             time++;
             continue;
-        }
+        } // sesuatu
 
-        // proses berubah → simpan ke Gantt
+        // proses berubah → simpan ke Gantt chartsssss
         if (prev != idx) {
             gantt.push_back({time, p[idx].name});
             if (prev != -1) preemption++;
