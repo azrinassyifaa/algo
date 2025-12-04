@@ -13,7 +13,6 @@ struct Process {
 };
 
 int main() {
-    int kwkwkwkw;
     int n;
     cout << "Masukkan jumlah proses: ";
     cin >> n;
